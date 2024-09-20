@@ -1,0 +1,68 @@
+@import url("reset.css");
+:root {
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --gray-1: #191C1F;
+    --gray-2: #212529;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+    --font-Family: "Inter";
+    --font-weight-1: 600;
+    --font-weight-2: 400;
+    --line-height: 150%;
+    --font-size-1: 20px;
+    --font-size-2: 18px;
+    --font-size-3-4: 16px;
+}
+h1{
+    font-family: var(--font-Family);
+    font-weight: var(--font-weight-1);
+    font-size: 52px;
+    line-height: 140%;
+}
+h2{
+    font-family: var(--font-Family);
+    font-weight: var(--font-weight-1);
+    font-size: 40px;
+    line-height: 160%;
+}
+h3{
+    font-family: var(--font-Family);
+    font-weight: var(--font-weight-1);
+    font-size: 32px;
+    line-height: 160%;
+}
+.text-1{
+    font-family: var(--font-Family);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-1);
+    line-height: var(--line-height);
+}
+.text-2{
+    font-family: var(--font-Family);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-2);
+    line-height: var(--line-height);
+}
+.text-3{
+    font-family: var(--font-Family);
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3-4);
+    line-height: var(--line-height);
+}
+.text-4{
+    font-family: var(--font-Family);
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-3-4);
+    line-height: var(--line-height);
+}
+.button-close{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+}
+@import url("index.css");

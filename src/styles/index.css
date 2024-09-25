@@ -73,6 +73,9 @@ header{
     border-bottom: solid var(--brand-1) 2px;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 .header__container{
     width: 100%;
@@ -184,7 +187,6 @@ header{
 }
 .faq__div__left{
     width: 620px;
-    height: 280px;
     display: flex;
     gap: 10px;
 }
@@ -195,6 +197,8 @@ header{
     gap: 10px;
     flex-direction: column;
     justify-content: space-between;
+    position: sticky;
+    top: 8rem;
 }
 .faq__div__div h2{
     color: var(--gray-6);
@@ -288,6 +292,8 @@ header{
     gap: 35px;
     background-color: var(--brand-1);
     color: var(--gray-7);
+    position: sticky;
+    top: 8rem;
 }
 
 

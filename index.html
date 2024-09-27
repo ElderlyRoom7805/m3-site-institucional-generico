@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Institucional Genérica</title>
     <link rel="stylesheet" href="/src/styles/globalstyles.css">
-    <link rel="stylesheet" href="/src/scripts/index.js">
+    <script src="/src/scripts/index.js" defer></script>
   </head>
   <body>
     <!-- ====== Header ====== -->
@@ -195,15 +195,15 @@
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog>
+    <dialog class="dialog__container">
       <div class="modal__container">
         <div class="modal__header">
-          <h3>Cadastr</h3>
-          <button class="button-close">X</button>
+          <h3>Cadastro</h3>
+          <button class="button__close">X</button>
         </div>
         <p class="text-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore saepe repellendus culpa modi dolor, dolorum et, obcaecati, quidem sapiente voluptates fugiat animi magnam. Iste delectus voluptate quas corporis quaerat praesentium!</p>
-        <input type="text" class="text-1" placeholder="Digitar email">
-        <button></button>
+        <input type="text" class="text-1" placeholder="Digitar email" />
+        <button class="button__submit">Entrar na lista para próxima turma</button>
       </div>
     </dialog>
   </body>

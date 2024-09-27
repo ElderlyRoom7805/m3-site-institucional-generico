@@ -3,6 +3,7 @@
     --brand-2: #364FC7;
     --gray-1: #191C1F;
     --gray-2: #212529;
+    --gray-3: #343A40;
     --gray-4: #ADB5BD;
     --gray-5: #CED4DA;
     --gray-6: #EDF2FF;
@@ -64,6 +65,75 @@ h3{
     line-height: 32px;
     text-align: center;
 }
+
+dialog::backdrop {
+    background-color: rgba(25, 28, 31, 0.8);
+  }
+.dialog__container{
+    padding: 0;
+    border: none;
+    top: -200px;
+}
+.modal__container{
+    min-width: 504px;
+    min-height: 416px;
+    padding-top: 40px;
+    padding-left: 28px;
+    padding-bottom: 40px;
+    padding-right: 28px;
+    gap: 31px;
+    border: 2px solid var(--brand-1);
+    background-color: var(--gray-2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal__header{
+    width: 448px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal__header h3{
+    color: var(--gray-7);
+}
+.button__close{
+    border-radius: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: var(--gray-3);
+    color: var(--gray-4);
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito";
+    align-items: center;
+    border: none;
+}
+.modal__container p{
+    width: 448px;
+    color: var(--gray-4);
+}
+.modal__container input{
+    width: 428px;
+    height: 60px;
+    background-color: var(--gray-1);
+    border: solid 1px var(--gray-1);
+    color: var(--gray-4);
+    padding-left: 20px;
+
+}
+.button__submit{
+    width: 448px;
+    height: 60px;
+    background-color: var(--brand-1);
+    border: solid 1px var(--brand-1);
+    color: var(--gray-7);
+}
+
 
 header{
     height: 6.25rem;
